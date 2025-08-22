@@ -1,10 +1,13 @@
+// src/pages/Blog.jsx
 import React from 'react';
 
-export default function Home() {
+export default function Blog() {
   return (
-    <div>
-      <h1>Blog</h1>
-      <p>Welcome to my portfolio site.</p>
-    </div>
+    <section className="flex flex-col items-center justify-center min-h-screen text-center bg-white">
+      <h1 className="text-4xl font-extrabold mb-4">Blog</h1>
+      <p className="text-gray-600 max-w-xl">
+        Read my thoughts on medicine, med school, research, and personal growth.
+      </p>
+    </section>
   );
 }
